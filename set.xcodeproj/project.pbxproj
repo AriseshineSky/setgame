@@ -17,7 +17,6 @@
 		ABB9FC7020126BD5001445EF /* ButtonRender.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB9FC6F20126BD5001445EF /* ButtonRender.swift */; };
 		ABB9FC7220126FD7001445EF /* ButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB9FC7120126FD7001445EF /* ButtonExtensions.swift */; };
 		ABB9FC7520127DB3001445EF /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB9FC7420127DB3001445EF /* Card.swift */; };
-		ABB9FC7D2012839F001445EF /* setTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB9FC7C2012839F001445EF /* setTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,8 +43,6 @@
 		ABB9FC7120126FD7001445EF /* ButtonExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExtensions.swift; sourceTree = "<group>"; };
 		ABB9FC7420127DB3001445EF /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		ABB9FC7A2012839F001445EF /* setTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = setTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABB9FC7C2012839F001445EF /* setTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setTests.swift; sourceTree = "<group>"; };
-		ABB9FC7E2012839F001445EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +67,6 @@
 			isa = PBXGroup;
 			children = (
 				AB1BFA9A2010F1E200C56794 /* set */,
-				ABB9FC7B2012839F001445EF /* setTests */,
 				AB1BFA992010F1E200C56794 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,15 +104,6 @@
 				ABB9FC7420127DB3001445EF /* Card.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		ABB9FC7B2012839F001445EF /* setTests */ = {
-			isa = PBXGroup;
-			children = (
-				ABB9FC7C2012839F001445EF /* setTests.swift */,
-				ABB9FC7E2012839F001445EF /* Info.plist */,
-			);
-			path = setTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +223,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABB9FC7D2012839F001445EF /* setTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
